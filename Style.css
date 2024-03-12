@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.html {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+
+}
+
+
+nav {
+
+    width: 100%;
+    height: 90px;
+
+    background: #4b435c;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+nav .main_pages {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+}
+
+nav .main_pages a {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background: palevioletred
+}
+
+label {
+    display: none;
+}
+
+@media all and (max-width: 650px) {
+    nav {
+        height: 60px;
+    }
+
+    nav .main_pages {
+        display: none;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+label,
+#toggle {
+    display: none;
+}
+
+@media all and (max-width: 650px) {
+    nav {
+        height: 60px;
+    }
+
+    nav .main_pages {
+        display: none;
+        flex-direction: column;
+        background: #5c4359;
+        height: 220px;
+        width: 100%;
+    }
+
+    nav .main_pages a {
+        width: 50%;
+    }
+
+    label {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    #toggle:checked+.main_pages {
+        display: flex;
+        top: -1;
+        bottom: -8;
+    }
+}
+
+.presentation {
+   height: 70vh;
+   display: flex;
+}
+
+
+
+
+#Projets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.sectiontitle {
+    font-size: 4rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.projectheader p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 5rem;
+
+}
+
+.projectbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.projectinfo {
+    flex-basis: 50%;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+}
+
+.projectinfo h3 {
+    font-size: 3rem;
+    font-weight: 400;
+    padding-top: 30px;
+    margin-top: 0px;
+    color: white;
+}
+
+.projectinfo h4 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: white;
+
+}
+
+.projectinfo p {
+    line-height: 2.5rem;
+    color: white;
+}
+
+.projectimg {
+    flex-basis: 60%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projectimg::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(60deg, blue, 0%, green 100%);
+    Opacity: .7;
+}
+
+.clic {
+    background-color: rgb(248, 248, 250);
+    height: 3rem;
+    width: 10rem;
+    border-radius: 25rem;
+    box-sizing: content-box;
+    -webkit-text-fill-color: white;
+}
+
+#formation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cursus_item {
+
+    flex-basis: 50%;
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+    color: white;
+    line-height: 2.5rem;
+    border-radius: 10px;
+    border-bottom: 10px;
+
+
+}
+
+#Contact {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: white;
+    height: 100vh;
+    margin: 20px;
+    padding-left: 30px;
+
+
+}
+
+#Contact .form {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-content: center;
+    width: 50%;
+    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+    border-radius: 10px;
+    border-bottom: 10px;
+
+}
+
+#Contact .input {
+    padding: 12px;
+    margin: 15px;
+    width: 60%;
+}
+
+#msg {
+    width: 60%;
+    height: 100px;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+#send {
+    width: 60px;
+}
