@@ -9,21 +9,22 @@
 </head>
 
 <body>
-    <!---Header-->
-    <section id="header">
+
+    <div id="header">
         <nav>
+            <img src="logo.png" alt="">
             <label for="toggle">☰</label>
             <input type="checkbox" id="toggle">
-            <div class="main_pages">
-        
+            <div class="main_menu">
+
                 <a href="#Projets">Projets</a>
                 <a href="#formation">Formation</a>
                 <a href="#Contact">Contact</a>
             </div>
         </nav>
-    </section>
+    </div>
     <section class="presentation">
-        <div >
+        <div>
             <h1> Syrine GHRIBI</h1>
             <h1>Développeuse WEB</h1>
         </div>
@@ -43,9 +44,14 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nemo dignissimos sed iste esse
                             quia vitae. Repudiandae, dolor dolorem sed sunt eveniet doloribus alias quaerat nostrum
                             maiores culpa repellat odio!</p>
-                        <button class="clic"> <a
-                                href="https://wireframepro.mockflow.com/view/M9CfDo13Ph#/page/24f35f5f965a426a81915c3cc1fa9b3c">En
-                                savoir plus</a></button>
+                        <button class="clic">
+
+                            <p> <a
+                                    href="https://wireframepro.mockflow.com/view/M9CfDo13Ph#/page/24f35f5f965a426a81915c3cc1fa9b3c">En
+                                    savoir plus</a></p>
+
+                        </button>
+
                     </div>
 
                     <img class="projectimg" src="projet1.jpg" alt="image1">
@@ -59,18 +65,23 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nemo dignissimos sed iste esse
                             quia vitae. Repudiandae, dolor dolorem sed sunt eveniet doloribus alias quaerat nostrum
                             maiores culpa repellat odio!</p>
-                        <button class="clic"> <a
+
+                        <button class="clic">
+
+                            <a
                                 href="https://wireframepro.mockflow.com/view/M9CfDo13Ph#/page/24f35f5f965a426a81915c3cc1fa9b3c">En
-                                savoir plus</a></button>
+                                savoir plus</a>
+                        </button>
                     </div>
-
-                    <img class="projectimg" src=projet2.png alt="image1">
-
-
                 </div>
-            </div>
 
+                <img class="projectimg" src=projet2.png alt="image1">
+
+
+            </div>
         </div>
+
+
     </section>
     <section id="formation">
         <div class="Formation_container">
@@ -93,19 +104,24 @@
     <section id="Contact">
         <div class="Contact_Header"></div>
         <h3 class="sectiontitle">Contact</h3>
-        <p>En plein recrutement? Envie de dire bonjour? N'hésitez pas, entrons en contact</p>
-        </div>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Nom et prénom">
 
-            <input type="email" name="user_E-mail" class="input" placeholder="E-mail">
-            <textarea id="msg" name="user_message" placeholder="Message"></textarea>
-
-            <input type="submit" value="Envoyer" id="send">
+        <form action="" class="form_contact">
+            <div>
+                <input type="text" name="name" class="case" placeholder="Nom et prénom">
+            </div>
+            <div>
+                <input type="email" name="user_E-mail" class="case" placeholder="E-mail">
+            </div>
+            <div>
+                <textarea id="msg" name="user_message" placeholder="Message"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer" id="send">
+            </div>
         </form>
 
     </section>
-
+    <footer>My portflio</footer>
 </body>
 
 </html>
