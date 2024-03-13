@@ -2,149 +2,123 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    scroll-margin-top: 40px;
+
 }
 
-.html {
-    font-size: 10px;
+body {
+    background: radial-gradient(circle, rgba(251, 63, 146, 0.3029586834733894) 0%, rgba(186, 102, 179, 0.17690826330532217) 95%)
+    
+}
+
+
+
+html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#header {
+
+
+header {
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: pink;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(161deg, rgba(121, 121, 121, 0.02) 0%, rgba(121, 121, 121, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 50.001000000000005%, rgba(5, 5, 5, 0.02) 50.001%, rgba(5, 5, 5, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 83.33500000000001%, rgba(211, 211, 211, 0.02) 83.335%, rgba(211, 211, 211, 0.02) 100.002%), linear-gradient(45deg, rgba(223, 223, 223, 0.02) 0%, rgba(223, 223, 223, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 71.42999999999999%, rgba(63, 63, 63, 0.02) 71.43%, rgba(63, 63, 63, 0.02) 85.71600000000001%, rgba(87, 87, 87, 0.02) 85.716%, rgba(87, 87, 87, 0.02) 100.002%), linear-gradient(337deg, rgba(142, 142, 142, 0.02) 0%, rgba(142, 142, 142, 0.02) 20%, rgba(164, 164, 164, 0.02) 20%, rgba(164, 164, 164, 0.02) 40%, rgba(203, 203, 203, 0.02) 40%, rgba(203, 203, 203, 0.02) 60%, rgba(228, 228, 228, 0.02) 60%, rgba(228, 228, 228, 0.02) 80%, rgba(54, 54, 54, 0.02) 80%, rgba(54, 54, 54, 0.02) 100%), linear-gradient(314deg, rgba(187, 187, 187, 0.02) 0%, rgba(187, 187, 187, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 25%, rgba(214, 214, 214, 0.02) 25%, rgba(214, 214, 214, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 50%, rgba(190, 190, 190, 0.02) 50%, rgba(190, 190, 190, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 75%, rgba(206, 206, 206, 0.02) 75%, rgba(206, 206, 206, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 100%), linear-gradient(300deg, rgba(243, 243, 243, 0.01) 0%, rgba(243, 243, 243, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 25%, rgba(179, 179, 179, 0.01) 25%, rgba(179, 179, 179, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 50%, rgba(211, 211, 211, 0.01) 50%, rgba(211, 211, 211, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 75%, rgba(16, 16, 16, 0.01) 75%, rgba(16, 16, 16, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 100%), linear-gradient(6deg, rgba(31, 31, 31, 0.02) 0%, rgba(31, 31, 31, 0.02) 20%, rgba(193, 193, 193, 0.02) 20%, rgba(193, 193, 193, 0.02) 40%, rgba(139, 139, 139, 0.02) 40%, rgba(139, 139, 139, 0.02) 60%, rgba(14, 14, 14, 0.02) 60%, rgba(14, 14, 14, 0.02) 80%, rgba(122, 122, 122, 0.02) 80%, rgba(122, 122, 122, 0.02) 100%), linear-gradient(279deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 71.42999999999999%, rgba(4, 4, 4, 0.02) 71.43%, rgba(4, 4, 4, 0.02) 85.71600000000001%, rgba(50, 50, 50, 0.02) 85.716%, rgba(50, 50, 50, 0.02) 100.002%), linear-gradient(109deg, rgba(124, 124, 124, 0.03) 0%, rgba(124, 124, 124, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 25%, rgba(187, 187, 187, 0.03) 25%, rgba(187, 187, 187, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 50%, rgba(206, 206, 206, 0.03) 50%, rgba(206, 206, 206, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%, rgba(89, 89, 89, 0.03) 75%, rgba(89, 89, 89, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 100%), linear-gradient(329deg, rgba(35, 35, 35, 0.02) 0%, rgba(35, 35, 35, 0.02) 20%, rgba(246, 246, 246, 0.02) 20%, rgba(246, 246, 246, 0.02) 40%, rgba(118, 118, 118, 0.02) 40%, rgba(118, 118, 118, 0.02) 60%, rgba(245, 245, 245, 0.02) 60%, rgba(245, 245, 245, 0.02) 80%, rgba(140, 140, 140, 0.02) 80%, rgba(140, 140, 140, 0.02) 100%), linear-gradient(90deg, hsl(314, 0%, 31%), hsl(314, 0%, 31%));
+    ;
+    position: fixed;
+
+
 
 }
 
+.logo {
+    width: 200px
+}
 
 nav {
 
     width: 100%;
-    height: 90px;
-
-    background: #4b435c;
+    height: 70px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
 
 
 }
 
-nav .main_pages {
+nav .main_menu {
     display: flex;
-
-    align-items: center;
-    width: 100%;
+    align-items: flex-end;
+    width: 90%;
+    position: sticky;
+    top: 0;
 }
 
-nav .main_pages a {
-    width: 80%;
+nav .main_menu a {
+    width: 60%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     height: 50px;
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
 nav a:hover {
-    background: palevioletred
+    background-color: palevioletred;
 }
 
 label {
     display: none;
 }
 
-@media all and (max-width: 650px) {
-    nav {
-        height: 60px;
-    }
-
-    nav .main_pages {
-        display: none;
-    }
-
-    label {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
-}
-
-label,
-#toggle {
-    display: none;
-}
-
-@media all and (max-width: 650px) {
-    nav {
-        height: 60px;
-    }
-
-    nav .main_pages {
-        display: none;
-        flex-direction: column;
-        background: #5c4359;
-        height: 220px;
-        width: 100%;
-    }
-
-    nav .main_pages a {
-        width: 50%;
-    }
-
-    label {
-        width: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        font-size: 40px;
-        color: white;
-        cursor: pointer;
-    }
-
-    #toggle:checked+.main_pages {
-        display: flex;
-        top: -1;
-        bottom: -8;
-    }
-}
 
 .presentation {
-   height: 70vh;
-   display: flex;
+    height: 70vh;
+    display: flex;
+    align-content: center;
+    padding-left: 30px;
+
 }
 
-
-
+.presentation h1 {
+    display: flex;
+    font-size: 2rem;
+    align-items: end;
+}
 
 #Projets {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
-    padding: 100px 0;
+    margin: 20px;
+    padding: 30px 0;
+}
+
+.projectcontainer {
+    margin-top: 100px;
 }
 
 .sectiontitle {
     font-size: 4rem;
     font-weight: bold;
     color: black;
+    margin-top: 50px;
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .projectheader p {
     margin-top: 30px;
     margin-bottom: 30px;
+    padding: 30px;
     text-align: left;
-    font-size: 5rem;
+    font-size: 2rem;
 
 }
 
@@ -167,6 +141,7 @@ label,
     margin-right: 50px;
     overflow: hidden;
     border-radius: 10px;
+    border-bottom: 10px;
 }
 
 .projectinfo {
@@ -177,7 +152,7 @@ label,
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #7e4e7c 0%, #63485c 100%);
 }
 
 .projectinfo h3 {
@@ -186,44 +161,45 @@ label,
     padding-top: 30px;
     margin-top: 0px;
     color: white;
+    text-align: center;
 }
 
 .projectinfo h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-top: 10px;
     color: white;
+    text-align: center;
 
 }
 
 .projectinfo p {
     line-height: 2.5rem;
     color: white;
+    padding: 10px;
 }
 
 .projectimg {
     flex-basis: 60%;
     height: 600px;
-    overflow: hidden;
-    position: relative;
+    margin: 20px;
+    border: 2px solid purple
 }
 
-.projectimg::after {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, blue, 0%, green 100%);
-    Opacity: .7;
-}
 
 .clic {
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(248, 248, 250);
-    height: 3rem;
-    width: 10rem;
-    border-radius: 25rem;
     box-sizing: content-box;
-    -webkit-text-fill-color: white;
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2.5px;
+    -webkit-text-fill-color: blue;
+    text-decoration: none;
 }
 
 #formation {
@@ -234,23 +210,33 @@ label,
     padding: 0;
 }
 
+#formation .sectiontitle {
+    font-size: 3.5rem;
+}
 
 .cursus_item {
 
     flex-basis: 50%;
     margin: 20px;
+    padding: 30px;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+    background-image: linear-gradient(60deg, #7e4e7c 0%, #63485c 100%);
     color: white;
     line-height: 2.5rem;
     border-radius: 10px;
     border-bottom: 10px;
 
+}
 
+.period {
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    width: 60%;
+    text-align: center;
 }
 
 #Contact {
@@ -260,38 +246,130 @@ label,
     box-sizing: border-box;
     color: white;
     height: 100vh;
-    margin: 20px;
-    padding-left: 30px;
-
+    width: 100%;
+    padding: 30px;
 
 }
 
-#Contact .form {
-
+#Contact .form_contact {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-content: center;
-    width: 50%;
-    background-image: linear-gradient(60deg, #4e647e 0%, #485563 100%);
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(60deg, #7e4e7c 0%, #63485c 100%);
     border-radius: 10px;
     border-bottom: 10px;
 
 }
 
-#Contact .input {
+#Contact .case {
     padding: 12px;
     margin: 15px;
-    width: 60%;
+    width: 100%;
+    display: flex;
+    align-content: center;
 }
 
 #msg {
-    width: 60%;
-    height: 100px;
-    padding-bottom: 30px;
+    width: 100%;
+    height: 132px;
+    padding: 12px;
     margin: 15px;
+    display: flex;
+    align-content: center;
 }
 
 #send {
     width: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(161deg, rgba(121, 121, 121, 0.02) 0%, rgba(121, 121, 121, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 50.001000000000005%, rgba(5, 5, 5, 0.02) 50.001%, rgba(5, 5, 5, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 83.33500000000001%, rgba(211, 211, 211, 0.02) 83.335%, rgba(211, 211, 211, 0.02) 100.002%), linear-gradient(45deg, rgba(223, 223, 223, 0.02) 0%, rgba(223, 223, 223, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 71.42999999999999%, rgba(63, 63, 63, 0.02) 71.43%, rgba(63, 63, 63, 0.02) 85.71600000000001%, rgba(87, 87, 87, 0.02) 85.716%, rgba(87, 87, 87, 0.02) 100.002%), linear-gradient(337deg, rgba(142, 142, 142, 0.02) 0%, rgba(142, 142, 142, 0.02) 20%, rgba(164, 164, 164, 0.02) 20%, rgba(164, 164, 164, 0.02) 40%, rgba(203, 203, 203, 0.02) 40%, rgba(203, 203, 203, 0.02) 60%, rgba(228, 228, 228, 0.02) 60%, rgba(228, 228, 228, 0.02) 80%, rgba(54, 54, 54, 0.02) 80%, rgba(54, 54, 54, 0.02) 100%), linear-gradient(314deg, rgba(187, 187, 187, 0.02) 0%, rgba(187, 187, 187, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 25%, rgba(214, 214, 214, 0.02) 25%, rgba(214, 214, 214, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 50%, rgba(190, 190, 190, 0.02) 50%, rgba(190, 190, 190, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 75%, rgba(206, 206, 206, 0.02) 75%, rgba(206, 206, 206, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 100%), linear-gradient(300deg, rgba(243, 243, 243, 0.01) 0%, rgba(243, 243, 243, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 25%, rgba(179, 179, 179, 0.01) 25%, rgba(179, 179, 179, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 50%, rgba(211, 211, 211, 0.01) 50%, rgba(211, 211, 211, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 75%, rgba(16, 16, 16, 0.01) 75%, rgba(16, 16, 16, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 100%), linear-gradient(6deg, rgba(31, 31, 31, 0.02) 0%, rgba(31, 31, 31, 0.02) 20%, rgba(193, 193, 193, 0.02) 20%, rgba(193, 193, 193, 0.02) 40%, rgba(139, 139, 139, 0.02) 40%, rgba(139, 139, 139, 0.02) 60%, rgba(14, 14, 14, 0.02) 60%, rgba(14, 14, 14, 0.02) 80%, rgba(122, 122, 122, 0.02) 80%, rgba(122, 122, 122, 0.02) 100%), linear-gradient(279deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 71.42999999999999%, rgba(4, 4, 4, 0.02) 71.43%, rgba(4, 4, 4, 0.02) 85.71600000000001%, rgba(50, 50, 50, 0.02) 85.716%, rgba(50, 50, 50, 0.02) 100.002%), linear-gradient(109deg, rgba(124, 124, 124, 0.03) 0%, rgba(124, 124, 124, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 25%, rgba(187, 187, 187, 0.03) 25%, rgba(187, 187, 187, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 50%, rgba(206, 206, 206, 0.03) 50%, rgba(206, 206, 206, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%, rgba(89, 89, 89, 0.03) 75%, rgba(89, 89, 89, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 100%), linear-gradient(329deg, rgba(35, 35, 35, 0.02) 0%, rgba(35, 35, 35, 0.02) 20%, rgba(246, 246, 246, 0.02) 20%, rgba(246, 246, 246, 0.02) 40%, rgba(118, 118, 118, 0.02) 40%, rgba(118, 118, 118, 0.02) 60%, rgba(245, 245, 245, 0.02) 60%, rgba(245, 245, 245, 0.02) 80%, rgba(140, 140, 140, 0.02) 80%, rgba(140, 140, 140, 0.02) 100%), linear-gradient(90deg, hsl(314, 0%, 31%), hsl(314, 0%, 31%));
+    height: 50px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        height: 60px;
+    }
+
+    nav .main_menu {
+        display: none;
+    }
+
+    label {
+        width: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+label,
+#toggle {
+    display: none;
+}
+
+@media only screen and (max-width: 650px) {
+    nav {
+        height: 60px;
+
+    }
+
+    nav .main_menu {
+        display: none;
+        flex-direction: column;
+        background: linear-gradient(161deg, rgba(121, 121, 121, 0.02) 0%, rgba(121, 121, 121, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 16.667%, rgba(193, 193, 193, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 33.334%, rgba(177, 177, 177, 0.02) 50.001000000000005%, rgba(5, 5, 5, 0.02) 50.001%, rgba(5, 5, 5, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 66.668%, rgba(229, 229, 229, 0.02) 83.33500000000001%, rgba(211, 211, 211, 0.02) 83.335%, rgba(211, 211, 211, 0.02) 100.002%), linear-gradient(45deg, rgba(223, 223, 223, 0.02) 0%, rgba(223, 223, 223, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 14.286%, rgba(70, 70, 70, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 28.572%, rgba(109, 109, 109, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 42.858%, rgba(19, 19, 19, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 57.144%, rgba(180, 180, 180, 0.02) 71.42999999999999%, rgba(63, 63, 63, 0.02) 71.43%, rgba(63, 63, 63, 0.02) 85.71600000000001%, rgba(87, 87, 87, 0.02) 85.716%, rgba(87, 87, 87, 0.02) 100.002%), linear-gradient(337deg, rgba(142, 142, 142, 0.02) 0%, rgba(142, 142, 142, 0.02) 20%, rgba(164, 164, 164, 0.02) 20%, rgba(164, 164, 164, 0.02) 40%, rgba(203, 203, 203, 0.02) 40%, rgba(203, 203, 203, 0.02) 60%, rgba(228, 228, 228, 0.02) 60%, rgba(228, 228, 228, 0.02) 80%, rgba(54, 54, 54, 0.02) 80%, rgba(54, 54, 54, 0.02) 100%), linear-gradient(314deg, rgba(187, 187, 187, 0.02) 0%, rgba(187, 187, 187, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 12.5%, rgba(170, 170, 170, 0.02) 25%, rgba(214, 214, 214, 0.02) 25%, rgba(214, 214, 214, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 37.5%, rgba(187, 187, 187, 0.02) 50%, rgba(190, 190, 190, 0.02) 50%, rgba(190, 190, 190, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 62.5%, rgba(6, 6, 6, 0.02) 75%, rgba(206, 206, 206, 0.02) 75%, rgba(206, 206, 206, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 87.5%, rgba(171, 171, 171, 0.02) 100%), linear-gradient(300deg, rgba(243, 243, 243, 0.01) 0%, rgba(243, 243, 243, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 12.5%, rgba(209, 209, 209, 0.01) 25%, rgba(179, 179, 179, 0.01) 25%, rgba(179, 179, 179, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 37.5%, rgba(3, 3, 3, 0.01) 50%, rgba(211, 211, 211, 0.01) 50%, rgba(211, 211, 211, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 62.5%, rgba(151, 151, 151, 0.01) 75%, rgba(16, 16, 16, 0.01) 75%, rgba(16, 16, 16, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 87.5%, rgba(242, 242, 242, 0.01) 100%), linear-gradient(6deg, rgba(31, 31, 31, 0.02) 0%, rgba(31, 31, 31, 0.02) 20%, rgba(193, 193, 193, 0.02) 20%, rgba(193, 193, 193, 0.02) 40%, rgba(139, 139, 139, 0.02) 40%, rgba(139, 139, 139, 0.02) 60%, rgba(14, 14, 14, 0.02) 60%, rgba(14, 14, 14, 0.02) 80%, rgba(122, 122, 122, 0.02) 80%, rgba(122, 122, 122, 0.02) 100%), linear-gradient(279deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 14.286%, rgba(160, 160, 160, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 28.572%, rgba(23, 23, 23, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 42.858%, rgba(60, 60, 60, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 57.144%, rgba(149, 149, 149, 0.02) 71.42999999999999%, rgba(4, 4, 4, 0.02) 71.43%, rgba(4, 4, 4, 0.02) 85.71600000000001%, rgba(50, 50, 50, 0.02) 85.716%, rgba(50, 50, 50, 0.02) 100.002%), linear-gradient(109deg, rgba(124, 124, 124, 0.03) 0%, rgba(124, 124, 124, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 12.5%, rgba(61, 61, 61, 0.03) 25%, rgba(187, 187, 187, 0.03) 25%, rgba(187, 187, 187, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 37.5%, rgba(207, 207, 207, 0.03) 50%, rgba(206, 206, 206, 0.03) 50%, rgba(206, 206, 206, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 62.5%, rgba(118, 118, 118, 0.03) 75%, rgba(89, 89, 89, 0.03) 75%, rgba(89, 89, 89, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 87.5%, rgba(96, 96, 96, 0.03) 100%), linear-gradient(329deg, rgba(35, 35, 35, 0.02) 0%, rgba(35, 35, 35, 0.02) 20%, rgba(246, 246, 246, 0.02) 20%, rgba(246, 246, 246, 0.02) 40%, rgba(118, 118, 118, 0.02) 40%, rgba(118, 118, 118, 0.02) 60%, rgba(245, 245, 245, 0.02) 60%, rgba(245, 245, 245, 0.02) 80%, rgba(140, 140, 140, 0.02) 80%, rgba(140, 140, 140, 0.02) 100%), linear-gradient(90deg, hsl(314, 0%, 31%), hsl(314, 0%, 31%));
+        height: 50vh;
+        width: 100%;
+    }
+
+    nav .main_menu a {
+        width: 100%;
+    }
+
+    label {
+        width: 10px;
+        display: flex;
+        justify-content: flex-end;
+
+        color: rgb(6, 6, 6);
+        cursor: pointer;
+
+
+    }
+
+    #toggle:checked+.main_menu {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .projectimg {
+        width: 250px;
+
+    }
+
+    footer {
+        text-align: center;
+    }
 }
